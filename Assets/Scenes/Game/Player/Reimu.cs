@@ -16,16 +16,6 @@ public class Reimu : Chara
 
 
 
-    protected override void Move()
-    {
-        base.Move();
-
-    }
-
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +25,7 @@ public class Reimu : Chara
     // Update is called once per frame
     void Update()
     {
-        Move();
+        Move(1f);
 
 
     }

@@ -19,7 +19,7 @@ public class Chara : MonoBehaviour
     }
 
 
-    protected virtual void Move()
+    protected void Move(float speed)
     {
 
         Chara_Position = this.transform.position;
@@ -33,8 +33,8 @@ public class Chara : MonoBehaviour
         }
         else
         {
-            v = Input.GetAxis("Vertical") / 3f;
-            h = Input.GetAxis("Horizontal") / 3f;
+            v = Input.GetAxis("Vertical") * speed / 3f;
+            h = Input.GetAxis("Horizontal") * speed / 3f;
 
         }
 
