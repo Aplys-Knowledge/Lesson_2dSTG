@@ -9,12 +9,13 @@ public class Chara : MonoBehaviour
     private float v = 0;
     private float h = 0;
 
+    private Animator anim;
 
 
     protected virtual void Ini()
     {
         Chara_Position = this.transform.position;
-
+        anim = GetComponent<Animator>();
 
     }
 
@@ -37,6 +38,18 @@ public class Chara : MonoBehaviour
             h = Input.GetAxis("Horizontal") * speed / 3f;
 
         }
+
+
+        if (Mathf.Abs(h) < 0.02f)
+        {
+            h = 0;
+        }
+
+
+
+        anim.SetFloat("HV", h);
+        
+
 
         if (v >= 0)
         {
@@ -76,5 +89,8 @@ public class Chara : MonoBehaviour
         transform.position = Chara_Position;
         
     }
+
+
+
 
 }

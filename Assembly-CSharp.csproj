@@ -66,7 +66,9 @@
     <Compile Include="Assets\Scenes\Game\Enemy\PEnemy.cs" />
     <Compile Include="Assets\Scenes\Game\Enemy\enemy01.cs" />
     <Compile Include="Assets\Scenes\Game\Player\Chara.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Marisa.cs" />
     <Compile Include="Assets\Scenes\Game\Player\Reimu.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Sanae.cs" />
     <Compile Include="Assets\Scenes\Game\Stage\PStage.cs" />
     <Compile Include="Assets\Scenes\Game\Stage\stage01.cs" />
     <None Include="Assets\Resources\IMG\れあどめ.txt" />
