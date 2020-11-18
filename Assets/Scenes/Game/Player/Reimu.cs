@@ -6,12 +6,6 @@ using UnityEngine.Scripting.APIUpdating;
 public class Reimu : Chara
 {
 
-    protected override void Ini()
-    {
-        base.Ini();
-
-
-    }
 
 
 

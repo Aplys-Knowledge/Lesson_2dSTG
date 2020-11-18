@@ -5,14 +5,6 @@ using UnityEngine;
 public class Marisa : Chara
 {
 
-    protected override void Ini()
-    {
-        base.Ini();
-
-
-    }
-
-
     // Start is called before the first frame update
     void Start()
     {

@@ -67,6 +67,17 @@
     <Compile Include="Assets\Scenes\Game\Enemy\enemy01.cs" />
     <Compile Include="Assets\Scenes\Game\Player\Chara.cs" />
     <Compile Include="Assets\Scenes\Game\Player\Marisa.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\Player_Bullet.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\Player_Shot.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\Reimu_Shot.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\Reimu_Shot1.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\Reimu_Shot2.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\Reimu_Shot3.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\Reimu_Shot4.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\Reimu_Shot5.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\Reimu_Shot6.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\Reimu_Shot7.cs" />
+    <Compile Include="Assets\Scenes\Game\Player\Player_Shot\p_Bullet01.cs" />
     <Compile Include="Assets\Scenes\Game\Player\Reimu.cs" />
     <Compile Include="Assets\Scenes\Game\Player\Sanae.cs" />
     <Compile Include="Assets\Scenes\Game\Stage\PStage.cs" />

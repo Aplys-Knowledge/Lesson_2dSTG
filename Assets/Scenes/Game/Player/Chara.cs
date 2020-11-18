@@ -11,6 +11,11 @@ public class Chara : MonoBehaviour
 
     private Animator anim;
 
+    protected int scnt = 0;
+    protected bool sflag = false;
+
+    protected int pow = 0;
+
 
     protected virtual void Ini()
     {
@@ -88,6 +93,55 @@ public class Chara : MonoBehaviour
 
         transform.position = Chara_Position;
         
+    }
+
+
+    protected void Shot_Mgr()
+    {
+        if (Input.GetButton("Shot"))
+        {
+            sflag = true;
+            scnt++;
+
+
+
+        }
+        else
+        {
+            sflag = false;
+            scnt = 0;
+        }
+
+
+
+    }
+
+    private void Update()
+    {
+        Shot_Mgr();
+
+        //ショットの動作テスト用
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            pow += 12;
+        }
+        Debug.Log(pow);
+        
+    }
+
+    public bool shot_flag
+    {
+        get { return sflag; }
+    }
+
+    public int shot_cnt
+    {
+        get { return scnt; }
+    }
+
+    public int shot_pow
+    {
+        get { return pow; }
     }
 
 

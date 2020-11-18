@@ -40,7 +40,7 @@ public class PStage : MonoBehaviour
 
     protected virtual void Player_Appear()
     {
-        player = Instantiate((GameObject)Resources.Load("Player/" + name[1]), new Vector2(0,0), Quaternion.identity);
+        player = Instantiate((GameObject)Resources.Load("Player/" + name[0]), new Vector2(0,0), Quaternion.identity);
 
 
 
